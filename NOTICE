@@ -1,0 +1,13 @@
+MaiBot QQ Realtime Bridge
+
+Derived from ClaudiaGardner/maibot-qq-voice-call
+Upstream: https://github.com/ClaudiaGardner/maibot-qq-voice-call
+Pinned source commit: 22f30c021cd3170f75af9dff66cc959a07ebda4b
+Original plugin author: ClaudiaGardner
+License: GPL-3.0-only (see LICENSE)
+
+Modified distribution maintained by sakura-liu-28.
+Changes: explicit authenticated call acceptance, numeric caller allowlist,
+current-invite matching, and a five-second initialization/login feedback guard.
+This repository redistributes the AV bridge component, not the complete
+upstream MaiBot application or QQ/NapCat/AVSDK binaries.

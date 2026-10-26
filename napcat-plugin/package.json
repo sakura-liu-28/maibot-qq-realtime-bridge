@@ -1,0 +1,30 @@
+{
+  "name": "napcat-plugin-maibot-qq-voice-call",
+  "plugin": "MaiBot QQ 实时语音桥",
+  "version": "0.3.4-derpy.1",
+  "type": "module",
+  "main": "index.mjs",
+  "description": "Loopback-only QQ AVSDK bridge for MaiBot voice calls",
+  "author": "ClaudiaGardner",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "napcat",
+    "maibot",
+    "qq",
+    "voice-call"
+  ],
+  "napcat": {
+    "tags": [
+      "工具",
+      "机器人"
+    ],
+    "minVersion": "4.14.0",
+    "homepage": "https://github.com/sakura-liu-28/maibot-qq-realtime-bridge"
+  },
+  "dependencies": {
+    "napcat-types": "0.0.16"
+  },
+  "contributors": [
+    "sakura-liu-28"
+  ]
+}
